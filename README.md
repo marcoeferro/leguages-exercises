@@ -6,26 +6,24 @@ Este repositorio contiene una colección de ejercicios de programación junto co
 
 Cada ejercicio está organizado en carpetas por lenguaje de programación y dentro de cada carpeta se encuentra:
 
-- 📝 `exercise{N°}.<ext>`: Un comentario multilinea con la consigna del Ejercicio y la implementación de la solución en el lenguaje correspondiente. 
-
-- 📂 `Mix Exercises`: Ejercicios que implican el uso de multiples recursos.
-
-- 📂 `{Recurso}`: Ejercicios que implican principalmente el uso de un recurso en particular. 
+- 📄 `README.md`: Explicación del ejercicio.
+- 📜 `consigna.txt`: Enunciado del problema.
+- 📝 `solucion.<ext>`: Implementación de la solución en el lenguaje correspondiente.
 
 Ejemplo de estructura:
-
 ```
 📂 ejercicios-programacion
  ├── 📂 Python
- │   ├── 📂 Mix Exercises
- │   │   ├── exercise1.py
- │   ├── 📂 Loops
- │   │   ├── exercise1.py
+ │   ├── 📂 ejercicio_01
+ │   │   ├── consigna.txt
+ │   │   ├── solucion.py
+ │   ├── 📂 ejercicio_02
+ │       ├── consigna.txt
+ │       ├── solucion.py
  ├── 📂 JavaScript
- │   ├── 📂 Mix Exercises
- │   │   ├── exercise1.js
- │   ├── 📂 Loops
- │   │   ├── exercise1.py
+ │   ├── 📂 ejercicio_01
+ │   │   ├── consigna.txt
+ │   │   ├── solucion.js
 ```
 
 ## 🚀 Lenguajes Utilizados
